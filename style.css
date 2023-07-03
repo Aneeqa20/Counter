@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    background-color: #13162b;
+
+}
+
+.counter {
+    justify-content: center;
+    /* position: relative; */
+    align-items: center;
+    border: 1px solid black;
+    width: 600px;
+    height: 350px;
+    margin: 180px 400px;
+    background-color: #191c37;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.2);
+line-height: 20px;
+border-radius: 20px;
+}
+
+.counter h1 {
+    font-size: 100px;
+    color: azure;
+text-align: center;
+padding: 50px;
+}
+.btn{
+display: flex;
+    margin: 70px;
+    justify-content: space-around;
+}
+.btn button{
+    width: 100px;
+height: 50px;
+border-radius: 10px;
+
+}
+button#dec{
+    color: #ffff;
+    background-color: #0097ff;
+    border: none;
+}
+button#inc{
+    color: #ffff;
+    background-color: #0097ff;
+    border: none;
+}
